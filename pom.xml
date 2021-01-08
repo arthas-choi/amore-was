@@ -30,6 +30,7 @@
 
   <build>
     <finalName>amore-demo</finalName>
+    <directory>app</directory>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
@@ -52,9 +53,6 @@
         <plugin>
           <artifactId>maven-war-plugin</artifactId>
           <version>3.2.2</version>
-          <configuration>
-            <outputDirectory>./app</outputDirectory>
-          </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
