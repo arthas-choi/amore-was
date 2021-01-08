@@ -1,0 +1,33 @@
+version: 0.0
+os: linux
+files:
+  - source: app
+    destination: /usr/share/tomcat8/webapps/
+permissions:
+  - object: /usr/share/tomcat8/webapps/app
+    pattern: "**"
+    owner: tomcat
+    group: tomcat
+    mode: 644
+    type:
+      - file
+  - object: /usr/share/tomcat8/webapps/app
+    pattern: "**"
+    owner: tomcat
+    group: tomcat
+    mode: 755
+    type:
+      - directory 
+hooks:
+  ApplicationStart:
+    - location: bin/start_tomcat.sh
+      timeout: 30
+      runas: root
+  ApplicationStop:
+    - location: bin/stop_tomcat.sh
+      timeout: 30
+      runas: root
+  BeforeInstall:
+    - location: bin/remove_app.sh
+      timeout: 10
+      runas: root      
