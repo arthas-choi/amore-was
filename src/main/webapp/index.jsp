@@ -1,7 +1,7 @@
-<%@ page
-        language="java"
-        contentType="text/html; charset=utf-8"
-        pageEncoding="utf-8"
+<%@ page 
+	language="java" 
+	contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"
 %>
 <!DOCTYPE html>
 <html>
@@ -14,48 +14,48 @@
     <link rel="stylesheet" href="CSS/base.css">
     <link rel="icon" type="image/png" sizes="32x32" href="https://cdn01.bespinglobal.com/wp-content/uploads/2017/03/cropped-cropped-favicon-1-32x32.png">
     <link rel="icon" type="image/png" sizes="192x192" href="https://cdn01.bespinglobal.com/wp-content/uploads/2017/03/cropped-cropped-favicon-1-192x192.png">
-    <title>BESPIN GLOBAL</title>
+	<title>BESPIN GLOBAL</title>
 </head>
 
 <body>
-<section class="signin-root">
-    <form class="signin-plate" action="">
-        <div class="signin-wrapper">
-            <header class="header-wrapper">
-                <p style="font-size:1.5rem;">BESPIN GLOBAL</p>
-                <p>DevOS CI/CD Pipeline</p>
-            </header>
-            <section class="body-wrapper">
-                <div>
+    <section class="signin-root">
+        <form class="signin-plate" action="">
+            <div class="signin-wrapper">
+                <header class="header-wrapper">
+                    <p>AMORE PACIFIC</p>
+                    <p style="font-size:1.5rem;">BESPIN GLOBAL DevOS CI/CD</p>
+                </header>
+                <section class="body-wrapper">
                     <div>
-                        <div class="board-button-move">
-                            <button type="button" class="button-standard button-color" onclick="visitPage();">Go OPSNOW</button>
-                        </div>
-                    </div>
-                    <div class="label-login">
                         <div>
-                            <span class="message-login">Tomcat application deployment have been completed</span>
+                            <div class="board-button-move">
+                                <button type="button" class="button-standard button-color" onclick="visitPage();">Go OPSNOW</button>
+                            </div>                                         
                         </div>
-                    </div>
-                </div>
-            </section>
-            <footer class="footer-root">
-                <div class="footer-wrapper-outer">
-                    <div class="footer-wrapper-inner">
-                        <div class="footer-copyright">
-                            <span>&copy; 2020 Bespinglobal. All rights reserved.</span>
+                        <div class="label-login">
+                            <div>
+                                <span class="message-login">Tomcat application deployment have been completed</span>
+                            </div>                        
                         </div>
-                    </div>
-                </div>
-            </footer>
-        </div>
-    </form>
-</section>
-<!-- JavaScript: Placed at the end of the document so the pages load faster -->
-<script type="text/javascript">
-    function visitPage(){
-        window.location='https://www.opsnow.com/';
-    }
-</script>
+                    </div> 
+                </section>
+			    <footer class="footer-root">
+			        <div class="footer-wrapper-outer">
+			            <div class="footer-wrapper-inner">
+			                <div class="footer-copyright">
+			                    <span>&copy; 2020 Bespinglobal. All rights reserved.</span>
+			                </div>
+			            </div>
+			        </div>  
+			    </footer>                
+            </div>
+        </form>
+    </section> 
+    <!-- JavaScript: Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript">
+	    function visitPage(){
+	        window.location='https://www.opsnow.com/';
+	    }
+    </script>    
 </body>
 </html>
