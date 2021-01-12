@@ -786,11 +786,36 @@
 			"item": [
 				{
 					"name": "Was Get Test",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"response is ok\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"request": {
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": ""
+							"raw": "http://APKPOC-APLZ-PUB1-ALB-WEB-1049755086.ap-northeast-2.elb.amazonaws.com/app",
+							"protocol": "http",
+							"host": [
+								"APKPOC-APLZ-PUB1-ALB-WEB-1049755086",
+								"ap-northeast-2",
+								"elb",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"app"
+							]
 						}
 					},
 					"response": []
@@ -817,7 +842,8 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "APKPOC-APLZ-PUB1-ALB-WEB-1049755086.ap-northeast-2.elb.amazonaws.com",
+							"raw": "http://APKPOC-APLZ-PUB1-ALB-WEB-1049755086.ap-northeast-2.elb.amazonaws.com",
+							"protocol": "http",
 							"host": [
 								"APKPOC-APLZ-PUB1-ALB-WEB-1049755086",
 								"ap-northeast-2",
