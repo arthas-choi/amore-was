@@ -1,42 +1,42 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 *::before, *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 input:-webkit-autofill,
-input:-webkit-autofill:hover, 
-input:-webkit-autofill:focus, 
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
 input:-webkit-autofill:active  {
     -webkit-box-shadow: 0 0 0 30px white inset;
 }
 body {
-  justify-content: center;
-  -webkit-font-smoothing: antialiased;
+    justify-content: center;
+    -webkit-font-smoothing: antialiased;
 }
 
 /*! bulma.io v0.7.1 | MIT License | github.com/jgthms/bulma */
 @-webkit-keyframes spinAround {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(359deg);
-            transform: rotate(359deg);
-  }
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
 }
 @keyframes spinAround {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(359deg);
-            transform: rotate(359deg);
-  }
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
 }
 
 /*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */
@@ -45,256 +45,256 @@ ol, ul, li, dl, dt, dd,
 blockquote, figure, fieldset, legend, textarea,
 pre, iframe, hr,
 h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
-  font-weight: normal;
+    font-size: 100%;
+    font-weight: normal;
 }
 ul {
-  list-style: none;
+    list-style: none;
 }
 button, input, select, textarea {
-  margin: 0;
+    margin: 0;
 }
 img, audio, video {
-  height: auto;
-  max-width: 100%;
+    height: auto;
+    max-width: 100%;
 }
 iframe {
-  border: 0;
+    border: 0;
 }
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 td, th {
-  padding: 0;
-  text-align: left;
+    padding: 0;
+    text-align: left;
 }
 html {
-  background-color: white;
-  font-size: 16px;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  min-width: 300px;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  text-rendering: optimizeLegibility;
-  -webkit-text-size-adjust: 100%;
-     -moz-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
-          text-size-adjust: 100%;
+    background-color: white;
+    font-size: 16px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    min-width: 300px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
 }
 article, aside, figure, footer, header, hgroup, section {
-  display: block;
+    display: block;
 }
 body, button, input, select, textarea {
-  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 code, pre {
-  -moz-osx-font-smoothing: auto;
-  -webkit-font-smoothing: auto;
-  font-family: monospace;
+    -moz-osx-font-smoothing: auto;
+    -webkit-font-smoothing: auto;
+    font-family: monospace;
 }
 body {
-  color: #4a4a4a;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
+    color: #4a4a4a;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
 }
 a {
-  color: #FF4500;
-  cursor: pointer;
-  text-decoration: none;
+    color: #FF4500;
+    cursor: pointer;
+    text-decoration: none;
 }
 a strong {
-  color: currentColor;
+    color: currentColor;
 }
 a:hover {
-  color: #363636;
+    color: #363636;
 }
 code {
-  background-color: whitesmoke;
-  color: #ff3860;
-  font-size: 0.875em;
-  font-weight: normal;
-  padding: 0.25em 0.5em 0.25em;
+    background-color: whitesmoke;
+    color: #ff3860;
+    font-size: 0.875em;
+    font-weight: normal;
+    padding: 0.25em 0.5em 0.25em;
 }
 hr {
-  background-color: whitesmoke;
-  border: none;
-  display: block;
-  height: 2px;
-  margin: 1.5rem 0;
+    background-color: whitesmoke;
+    border: none;
+    display: block;
+    height: 2px;
+    margin: 1.5rem 0;
 }
 img {
-  height: auto;
-  max-width: 100%;
+    height: auto;
+    max-width: 100%;
 }
 input[type="checkbox"], input[type="radio"] {
-  vertical-align: baseline;
+    vertical-align: baseline;
 }
 small {
-  font-size: 0.875em;
+    font-size: 0.875em;
 }
 span {
-  font-style: inherit;
-  font-weight: inherit;
+    font-style: inherit;
+    font-weight: inherit;
 }
 strong {
-  color: #363636;
-  font-weight: 700;
+    color: #363636;
+    font-weight: 700;
 }
 pre {
-  -webkit-overflow-scrolling: touch;
-  background-color: whitesmoke;
-  color: #4a4a4a;
-  font-size: 0.875em;
-  overflow-x: auto;
-  padding: 1.25rem 1.5rem;
-  white-space: pre;
-  word-wrap: normal;
+    -webkit-overflow-scrolling: touch;
+    background-color: whitesmoke;
+    color: #4a4a4a;
+    font-size: 0.875em;
+    overflow-x: auto;
+    padding: 1.25rem 1.5rem;
+    white-space: pre;
+    word-wrap: normal;
 }
 pre code {
-  background-color: transparent;
-  color: currentColor;
-  font-size: 1em;
-  padding: 0;
+    background-color: transparent;
+    color: currentColor;
+    font-size: 1em;
+    padding: 0;
 }
 table td, table th {
-  text-align: left;
-  vertical-align: top;
+    text-align: left;
+    vertical-align: top;
 }
 table th {
-  color: #363636;
+    color: #363636;
 }
 
 .icon {
-  cursor: inherit;
+    cursor: inherit;
 }
 .icon svg {
-  background-color: transparent;
-  fill: currentColor;
-  stroke-width: 0;
-  stroke: currentColor;
-  pointer-events: none;
-  width: 1.5rem; 
-  height: 1.5rem;
+    background-color: transparent;
+    fill: currentColor;
+    stroke-width: 0;
+    stroke: currentColor;
+    pointer-events: none;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 .icon {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
-.icon { 
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 1.5rem; /* pretty-checkbox.css¿Í °ãÃÄ¼­ ¹Ý¿µµÇÁö ¾ÊÀ½ */
-  width: 1.5rem;
+.icon {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 1.5rem; /* pretty-checkbox.cssï¿½ï¿½ ï¿½ï¿½ï¿½Ä¼ï¿½ ï¿½Ý¿ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ */
+    width: 1.5rem;
 }
 
 /* =============== Styling Scrollbar ============= */
 
 ::-webkit-scrollbar {
-  width: 12px;
+    width: 12px;
 }
 
 ::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  -webkit-box-shadow: inset 0 0 6px #9e9e9e;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px #9e9e9e;
 }
 
 /* =============== Styling Button ============= */
 
 @media not all and (pointer: coarse) { /* Prevent CSS hover on touch devices https://medium.com/@djpjgj/css-magic-pt-1-prevent-css-hover-on-touch-devices-56b3f8a44240 */
-  .button-platinum:hover {
-    border: 0.05rem solid #33ccff;
-    background-color: #33ccff;
-    color: #fff;
-  }
-  .button-color:hover {
-    border: 0.05rem solid #4CC417; /* Green Apple */
-    background-color: #4CC417;
-  }
-  .button-nude:hover {
-    cursor: pointer;
-    box-shadow: rgba(255, 255, 255, 0.2) 0 0 0.5rem 0.313rem, rgba(0, 0, 0, 0.4) 0 0.2rem 0.3rem 0;    
-    border-radius: 0.5rem;
-    border: 0.05rem solid #FCFCFC;
-    background: #FCFCFC;
-  }
+    .button-platinum:hover {
+        border: 0.05rem solid #33ccff;
+        background-color: #33ccff;
+        color: #fff;
+    }
+    .button-color:hover {
+        border: 0.05rem solid #4CC417; /* Green Apple */
+        background-color: #4CC417;
+    }
+    .button-nude:hover {
+        cursor: pointer;
+        box-shadow: rgba(255, 255, 255, 0.2) 0 0 0.5rem 0.313rem, rgba(0, 0, 0, 0.4) 0 0.2rem 0.3rem 0;
+        border-radius: 0.5rem;
+        border: 0.05rem solid #FCFCFC;
+        background: #FCFCFC;
+    }
 }
 
 .button-standard {
-  box-shadow: rgba(255, 255, 255, 0.2) 0 0 0.5rem 0.313rem, rgba(0, 0, 0, 0.4) 0 0.2rem 0.3rem 0;    
-  border-radius: 0.5rem;
-  line-height: 1rem;
-  text-align: center;
-  text-decoration: none;  
-  cursor: pointer;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+    box-shadow: rgba(255, 255, 255, 0.2) 0 0 0.5rem 0.313rem, rgba(0, 0, 0, 0.4) 0 0.2rem 0.3rem 0;
+    border-radius: 0.5rem;
+    line-height: 1rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 .button-standard:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 .button-standard:focus {
-  outline: none; 
+    outline: none;
 }
 
 .button-platinum {
-  background: #FCFCFC;
-  border: 0.05rem solid #FCFCFC;
+    background: #FCFCFC;
+    border: 0.05rem solid #FCFCFC;
 }
 .button-color {
-  border: 0.05rem solid #33ccff;
-  background-color: #33ccff;  
-  color: #fff;
+    border: 0.05rem solid #33ccff;
+    background-color: #33ccff;
+    color: #fff;
 }
 .button-nude {
-  color: #4a4a4a;
-  background: #fff;
-  border: 0.05rem solid #fff;
-  line-height: 0.8rem;
-  text-align: center;
-  text-decoration: none;  
-  cursor: pointer;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;  
+    color: #4a4a4a;
+    background: #fff;
+    border: 0.05rem solid #fff;
+    line-height: 0.8rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 .button-nude:focus {
-  outline: none; 
+    outline: none;
 }
 
 .signin-root {
     padding-top: 5rem;
-    z-index: 99;  
+    z-index: 99;
     display: flex;
     justify-content: center;
     align-items: center;
     position: -webkit-sticky;
     position: -moz-sticky;
     position: -ms-sticky;
-    position: -o-sticky;  
-    position: sticky;  
+    position: -o-sticky;
+    position: sticky;
 }
 .signin-plate {
     position: relative;
@@ -316,18 +316,18 @@ table th {
     text-rendering: optimizeLegibility; /* font-family: 'Roboto', sans-serif; */
     font-size: 2rem;
     font-weight: 600;
-    text-shadow: rgba(0, 0, 0, 0.3) 0 0.16rem 0.16rem; 
-}   
+    text-shadow: rgba(0, 0, 0, 0.3) 0 0.16rem 0.16rem;
+}
 .body-wrapper {
     text-align: center;
     height: 5.4rem;
-    padding: 0rem 0 1rem 0rem; 
+    padding: 0rem 0 1rem 0rem;
     border-top: .1rem #f7f7f7 solid !important;
-}   
+}
 
 .board-button-move,
 .board-button-submit {
-    padding: 1rem 0 0 0rem;         
+    padding: 1rem 0 0 0rem;
 }
 .board-button-move button {
     width: 7.5rem;
@@ -346,13 +346,13 @@ table th {
 .loader-root {
     position: absolute;
     left: 50%;
-    margin-top: 2.8rem;        
+    margin-top: 2.8rem;
     transform: translate(-50%, -50%);
     z-index: 90;
 }
 .loader-icon {
     -webkit-animation: spinAround 500ms infinite linear;
-        animation: spinAround 500ms infinite linear;
+    animation: spinAround 500ms infinite linear;
     border: 2px solid #33ccff;
     border-radius: 290486px;
     border-right-color: transparent;
@@ -367,7 +367,7 @@ table th {
 .footer-wrapper-outer {
     display: table;
     width: 100%;
-    height: 100%;  
+    height: 100%;
 }
 .footer-wrapper-inner {
     display: table-cell;
@@ -376,13 +376,13 @@ table th {
 }
 .footer-copyright {
     position: relative;
-    display: inline-block;  
+    display: inline-block;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
 }
 .footer-copyright span {
-    font-weight: 600;  
+    font-weight: 600;
     font-size: 0.75rem;
     letter-spacing: 0.01em;
-    text-shadow: rgba(0, 0, 0, 0.2) 0 0.12rem 0.12rem; 
+    text-shadow: rgba(0, 0, 0, 0.2) 0 0.12rem 0.12rem;
 }
