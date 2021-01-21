@@ -22,7 +22,7 @@
         <form class="signin-plate" action="">
             <div class="signin-wrapper">
                 <header class="header-wrapper">
-                    <p>AMORE PACIFIC</p>
+                    <p>DevOs</p>
                     <p style="font-size:1.5rem;">BESPIN GLOBAL DevOS CI/CD</p>
                 </header>
                 <section class="body-wrapper">
